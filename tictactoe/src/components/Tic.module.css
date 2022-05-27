@@ -1,0 +1,42 @@
+
+  
+  .tic {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(20,189,172);
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line {
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .bbright {
+    border-right: 15px solid rgb(13,161,146);
+    border-bottom: 15px solid rgb(13,161,146);
+  }
+  
+  .bbottom {
+    border-bottom: 15px solid rgb(13,161,146);
+  }
+  
+  .bright {
+    border-right: 15px solid rgb(13,161,146);
+  }
+  
+  .clearbtn {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    color: rgb(13,161,146);
+    cursor: pointer;
+    border: #fff;
+    margin: 40px auto 10px auto;
+  }
